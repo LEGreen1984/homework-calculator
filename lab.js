@@ -24,6 +24,20 @@
         alert(result = number - takeAway);
       }
 
+      if (calculator == "a")
+      {var basicFunction = prompt("Would you like to use the (s)quare root or (p)ower of?").toLowerCase();
+      }
+        if (calculator == "a" && basicFunction == "s"){
+          var number = prompt("enter a number");
+          alert(result = Math.sqrt(number));
+        }
+        else if (calculator == "a" && basicFunction == "p"){
+          var number = prompt("enter a number");
+          var powerTo = prompt("to the power of");
+          alert(result = Math.pow(number, powerTo));
+        }
+
+
 
     // else if (calculator == "advanced" && advancedFunction == "Square     Root"){
     //   var number = prompt("enter a number");
