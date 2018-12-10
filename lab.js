@@ -36,12 +36,3 @@
           var powerTo = prompt("to the power of");
           alert(result = Math.pow(number, powerTo));
         }
-
-
-
-    // else if (calculator == "advanced" && advancedFunction == "Square     Root"){
-    //   var number = prompt("enter a number");
-    //   var divideBy = prompt("divide by")
-    //   alert(result = number  divideBy);
-    // var advanced-calculation =
-    // if (calculator == "advanced" && )
